@@ -4,7 +4,7 @@ function Hero(){
     return(
         <section id="hero" className="py-20">
             <div className="max-w-2xl px-4 mx-auto flex items-center gap-20">
-                <div>
+                <div className="flex-1">
                     <h1 className="text-5xl font-bold tracking-tight">Hi, I'm {PORTFOLIO.name} 👋</h1>
                     <p className="mt-4 text-xl text-gray-600 leading-relaxed">{PORTFOLIO.description}</p>
                 </div>
