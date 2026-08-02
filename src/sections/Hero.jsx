@@ -2,7 +2,7 @@ import PORTFOLIO from "../data/portfolio";
 
 function Hero(){
     return(
-        <section id="hero" className="py-20">
+        <section id="hero" className="pt-20 pb-5">
             <div className="max-w-2xl px-4 mx-auto flex items-center gap-20">
                 <div className="flex-1">
                     <h1 className="text-5xl font-bold tracking-tight">Hi, I'm {PORTFOLIO.name} 👋</h1>
