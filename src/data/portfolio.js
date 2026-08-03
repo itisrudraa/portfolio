@@ -9,7 +9,15 @@ const PORTFOLIO = {
 
     avatarUrl: "/images/profile.jpg",
 
-    skills: [],
+    skills: [
+        { name: "C++", icon: "cpp" },
+        { name: "Python", icon: "python" },
+        { name: "JavaScript", icon: "javascript" },
+        { name: "React", icon: "react" },
+        { name: "Tailwind CSS", icon: "tailwind" },
+        { name: "Git", icon: "git" },
+        { name: "VS Code", icon: "vscode" },
+    ],
 
     contact: {},
 
