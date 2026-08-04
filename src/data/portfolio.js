@@ -21,7 +21,46 @@ const PORTFOLIO = {
 
     contact: {},
 
-    projects: [],
+    projects: [
+        {
+            title: "ReLeet",
+            description: "Chrome extension that saves failed LeetCode problems and automatically schedules revisions using spaced repetition to improve long-term retention.",
+            image: "/images/releet.png",
+            tech: [
+                { name: "React", icon: "react" },
+                { name: "JavaScript", icon: "javascript" },
+                { name: "Vite", icon: "vite" }
+            ],
+            github: "https://github.com/itisrudraa/releet",
+            live: "",
+        },
+
+        {
+            title: "OutDOM",
+            description: "A lightweight Virtual DOM library built from scratch to understand rendering, reconciliation, diffing, and efficient DOM updates without using React.",
+            image: "/images/outdom.png",
+            tech: [
+                { name: "JavaScript", icon: "javascript" },
+                { name: "HTML", icon: "html" },
+                { name: "CSS", icon: "css" }
+            ],
+            github: "https://github.com/itisrudraa/outdom",
+            live: "",
+        },
+
+        {
+            title: "OurVault",
+            description: "Frontend for a decentralized savings vault built on Algorand, allowing users to set savings goals, track progress, and securely manage funds.",
+            image: "/images/ourvault.png",
+            tech: [
+                { name: "React", icon: "react" },
+                { name: "Tailwind", icon: "tailwind" },
+                { name: "Algorand", icon: "algorand" }
+            ],
+            github: "https://github.com/itisrudraa/ourvault",
+            live: "",
+        },
+    ],
 
     education: [],
 
