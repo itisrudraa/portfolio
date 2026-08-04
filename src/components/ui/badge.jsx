@@ -1,4 +1,5 @@
 import { SiReact, SiTailwindcss, SiPython, SiCplusplus, SiJavascript, SiGit, } from "react-icons/si";
+import { FaGithub } from "react-icons/fa";
 
 const ICONS = {
     react: SiReact,
@@ -7,6 +8,7 @@ const ICONS = {
     cpp: SiCplusplus,
     javascript: SiJavascript,
     git: SiGit,
+    github: FaGithub,
 };
 
 function Badge({name, icon}){
