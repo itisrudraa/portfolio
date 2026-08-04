@@ -1,4 +1,4 @@
-import Badges from "../components/ui/Badge"
+import Badge from "../components/ui/Badge"
 import { MdArrowOutward } from "react-icons/md";
 import { FaGithub } from "react-icons/fa";
 
@@ -16,7 +16,7 @@ function Project({title, description, image, tech, github, live}){
                 <p className="mt-3 text-sm text-gray-600">{description}</p>
                 <div className="flex flex-wrap gap-1 mt-5">
                     {tech.map(({name, icon}) => (
-                        <Badges key={name} name={name} icon={icon} />
+                        <Badge key={name} name={name} icon={icon} />
                     ))}
                 </div>
                 <div className="mt-6 flex justify-between">
