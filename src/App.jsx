@@ -4,6 +4,7 @@ import Projects from "./sections/Projects";
 import Skills from "./sections/Skills";
 import FloatingDock from "./components/FloatingDock";
 import Footer from "./sections/Footer";
+import Hackathons from "./sections/Hackathons";
 
 function App(){
   return (
@@ -13,6 +14,7 @@ function App(){
       <Skills />
       <Projects />
       <FloatingDock />
+      <Hackathons />
       <Footer />
     </>
   );
