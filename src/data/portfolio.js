@@ -64,7 +64,16 @@ const PORTFOLIO = {
 
     education: [],
 
-    hackathons: [],
+    hackathons: [
+        {
+            title: "Hackatron 3.0",
+            organizer: "BIT Sindri",
+            date: "2026",
+            team: "OUTLIERS",
+            project: "OurVault",
+            description: "Built a decentralized wallet-linked savings vault on Algorand during a 48-hour hackathon.",
+        },
+    ],
 }
 
 export default PORTFOLIO;
