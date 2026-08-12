@@ -68,10 +68,10 @@ const PORTFOLIO = {
         {
             title: "Hackatron 3.0",
             organizer: "BIT Sindri",
-            date: "2026",
-            team: "OUTLIERS",
-            project: "OurVault",
+            date: "April 2026",
+            status: "Track Winner",
             description: "Built a decentralized wallet-linked savings vault on Algorand during a 48-hour hackathon.",
+            logoURL: "/images/hackatron3.0.png"
         },
     ],
 }
