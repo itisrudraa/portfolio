@@ -56,9 +56,7 @@ function FloatingDock() {
   ];
   return (
     <div className="fixed bottom-5 left-1/2 -translate-x-1/2 z-50" >
-      <FloatingDockComponent
-        mobileClassName="translate-y-20"
-        items={links} />
+      <FloatingDockComponent items={links} />
     </div>
   );
 }
