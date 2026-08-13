@@ -15,6 +15,7 @@ const PORTFOLIO = {
         { name: "JavaScript", icon: "javascript" },
         { name: "React", icon: "react" },
         { name: "Tailwind CSS", icon: "tailwind" },
+        { name: "FastApi", icon: "fastapi" },
         { name: "Git", icon: "git" },
         { name: "VS Code", icon: "vscode" },
     ],
